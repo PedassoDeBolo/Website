@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/shinibutaStyle.css" />
+		<link rel="stylesheet" type="text/css" href="../css/headerStyle.css" />
+		<title>Shinibuta</title>
+	</head>
+	<body id="pageShinibuta">
+
+		<header>
+			<a href="siteDePresentation.html"><img src="../images/logoSite.png" class="logo"></a>
+			<nav>
+				<ul>
+					<li><a href="realisations.html">Accueil</a></li>
+					<li><a href="siteDePresentation.html">Info</a></li>
+					<li><a href="#">Me contacter</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+
+		<div class="all">
+
+			<div class="menu">
+				<ul class="listeMenu">
+					<li class="intro"><a href="#intro"><span></span></a>Introduction</li>
+					<li class="realisation"><a href="#realisation"><span></span></a>Réalisation</li>
+					<li class="mecaniques"><a href="#mecaniques"><span></span></a>Mécaniques</li>
+					<li class="autScripts"><a href="#autScripts"><span></span></a>Autres Scripts</li>
+					<li class="bibliographie"><a href="#bibliographie"><span></span></a>Bibliographie</li>
+					
+				</ul> 
+			</div>
+			<div class="pagePrincipale">
+				<div class="page">
+					<button class="retour"><a href="realisations.html"><span></span></a>← retour</button>
+					<div class="block1">
+						<h2><a id="intro"></a>Introduction :</h2>
+						<p class="partieHaut">J'ai depuis longtemps joué à des divers jeux videos, mais jamais eu la possibilité d'en faire un. Lors de ma terminale, j'ai pris la spécialité ISN(Informatique et Sciences du Numérique) et lors de la réalisation du projet annuel, j'ai decidé de faire un jeu video, des idées jusqu'au total développemment de celui-ci. Avec mon ami qui s'occupa des graphismes et moi du développement, nous fîmes un jeu simple nommé par nos soins de <em>Shinibuta</em>.</p>
+						<p>
+							L'explication en détail s'affiche en dessous, elle est composée de : <strong>Le but du jeu, comment à été-t-il fait,les diffèrents ennemis et diffèrentes mécaniques</strong>.
+							<br>
+							<strong>si vous voulez jouer au jeu <a href="https://drive.google.com/open?id=18w8Wpn2DO5nSYTXeDCj-w33Su_2Fy_5y" target="blank">téléchargez le ici</a></strong>(tout télécharger)
+						</p>
+					</div>
+
+					<div class="block2">
+						<p>Afin que la réalisation soit possible, on à decidé de faire un genre de jeu plutôt connu et simple: un <a href="https://fr.wikipedia.org/wiki/Jeu_de_plates-formes" target="blank">platformer</a>. Ici en dessous on peut voir la carte entière du jeu, qui est en 2D. Le joueur commence à gauche de la carte et doit la parcourir en esquivant les divers obstacles et monstres sur son chemin.</p>
+						<img src="../images/shinibutaCarte.png">
+
+					</div>			
+				</div>	
+
+				<div class="page2">
+					<div class="block1">
+						<h2><a id="realisation"></a>Réalisation :</h2>
+							<a href="https://unity3d.com" target="blank"><img src="../images/unityLogo.png"></a>
+								<p>
+									Après plusieurs recherches j'ai commencé à étudier Unity, un moteur de jeu qui permet la réalisation de jeux 3D et 2D avec une grande facilité et le rendu peut être multiplateformes(ordinateur, plusieurs consoles de jeu,android et Ios). L'essentiel de mon apprentissage à été sur des tutoriels youtube et certains blogs(dans la bibliographie). Plus d'informations sur Unity <strong><a href="https://fr.wikipedia.org/wiki/Unity_(moteur_de_jeu)" target="blank" style="text-decoration: none;">ici</a></strong>
+								</p>
+							
+					</div>
+					<div class=block2>
+							<a href="https://www.reddit.com/r/csharp/" target="blank"><img src="../images/cSharpLogo.png"></a>
+							<p>
+								Csharp est un langage de programmation utilisé dans les scripts d'Unity, le code s'organise d'abord avec les variables, ensuite les boucles qui on plusieurs caractéristiques(1 tour par image/s ou 60 tours fixes en 1 seconde) et enfin les méthodes qui sont des bouts de code appellés dans les boucles, qui sont des vérifications, des actions etc.. Plus d'informations sur Csharp <strong><a href="https://fr.wikipedia.org/wiki/C_sharp" target="blank" style="text-decoration: none;">ici</a></strong>
+							</p>
+					</div>
+					
+				</div>
+
+				<div class="page3">
+						<div class="block1">
+							<h2><a id="mecaniques"></a>Mécaniques :</h2>
+							 <iframe src="http://www.youtube.com/embed/G7E6pgFiXwQ"
+   							width="560" height="315" frameborder="0" allowfullscreen>  								
+   							</iframe>
+   							<h3>Personnage :</h3>
+   							<img src="../images/shinibutaPerso.gif">
+   							<p class="pDessus">
+   								Nous commençons avec le personnage que l'utilisateur contrôle dans le jeu, il peut bouger de gauche à droite et sauter pour éviter les obstacles, il possède aussi une attaque de courte portée qui blesse les ennemis.
+   							</p>
+   							<p class="pDessous">
+   								 Comme nous avions un temps réduit lors de la production du jeu, il manque certaines mecaniques telles qu'une attaque aérienne prévue. Les animations ne sont pas très fluides et quelque peu erratiques par moment, je me suis pas particulièrement occupé de la partie graphique car nos tâches ont été réparties, le graphisme n'était donc pas ma préoccupation primaire. Ce personnage comme la plupart des monstres dans le jeu, fonctionne avec plusieurs zones et quelques colliseurs, ces zones permettent de subir ou d'infliger des dégâts et les colliseurs de permettre la physique du jeu fonctionner correctement.
+   							</p>
+						</div>
+
+						<div class="block2">
+							
+							 <iframe src="http://www.youtube.com/embed/k8ltbKBRdB8"
+   							width="560" height="315" frameborder="0" allowfullscreen>  								
+   							</iframe>
+   							<h3>Slime Cochon :</h3>
+   							<img src="../images/shinibutaSlime.gif">
+   							<p class="pDessus">
+   								Le Slime Cochon est le plus commun des ennemis, il apparait un peu partout dans le jeu et peut être très dangereux en grand nombre. Son animation à été faite par mes soins car il est plutôt simple graphiquement.
+   							</p>
+   							<p class="pDessous">
+   								 Son intelligence artificielle est assez sommaire, il possède une zone d'action qui peut être considerée comme une vue, quand le personnage rentre dans cette zone, le slime entre en action et saute toujours vers le personnage, il peut infliger des dégâts et en subir, au bout de 2 attaques subies, il "meurt" en disparaissant au bout de quelques secondes comme affiché dans la vidéo en haut. Il est appellé "slime" car dans plusieurs jeux videos les slimes sont des monstres de gélatine qui apparaissent au début du jeu.
+   							</p>
+						</div>
+
+						<div class="block3">
+							
+							 <iframe src="http://www.youtube.com/embed/q4lef_VCTDI"
+   							width="560" height="315" frameborder="0" allowfullscreen>  								
+   							</iframe>
+   							<h3>cochon Vroum :</h3>
+   							<img src="../images/shinibutaVroum.gif">
+   							<p class="pDessus">
+   								Cet ennemi est nommé Vroum par manque d'inspiration, il apparaît plus rarement dans les zones du jeu et est moins dangereux car son <a href="https://fr.wikipedia.org/wiki/Pattern" target="blank">pattern</a>(ses actions) est beaucoup moins hasardeux que les slimes cochons.
+   							</p>
+   							<p class="pDessous">
+   								 Sa programmation reste très similaire à l'ennemi précèdent, il avance en ligne droite toujours vers le personnage quand sa zone d'action est déclenchée. Il peut de même subir des dégats et les infliger. Son intelligence aurait dû être diffèrente, le faisant faire des aller-retour sur une platforme, mais après quelques problèmes techniques j'ai dû changer son pattern à l'actuel.
+   							</p>
+						</div>
+
+						<div class="block4">
+							
+							 <iframe src="http://www.youtube.com/embed/bsRS7_1giNo"
+   							width="560" height="315" frameborder="0" allowfullscreen>  								
+   							</iframe>
+   							<h3>Boss Cochon :</h3>
+   							<img src="../images/shinibutaBossCochon.gif">
+   							<p class="pDessus">
+   								Comme son nom l'indique, il est le "chef" des cochons. Il est en unique exemplaire à la fin du jeu, on doit le vaincre pour pouvoir finir le niveau(et donc le jeu car il y a un seul niveau à ce jour)
+   							</p>
+   							<p class="pDessous">
+   								 Cet ennemi est le plus complexe de tous, il possède un pattern qui peut être changé totalement, il se déplace entre 2 points que je peux placer où bon me semble, tout au long de cet déplacement il largue des bombes qui inflige des dégâts au personnage, lorsque il a fait 2 aller-retour, il tire un missile téléguidé sur le joueur, qui doit le renvoyer pour lui infliger des dégâts, c'est l'unique façon de blesser et vaincre le boss. Quand sa vie est basse, le boss passe en 2ème phase, qui devient beaucoup plus rapide et dur à esquiver. Tout est réglable, de la vitesse du boss aux nombre d'aller-retour, et le lapse de temps entre chaque bombe, rendant cet ennemi extrèmement régulable.
+   							</p>
+						</div>
+				</div>
+
+				<div class="page4">
+					<div class="block1">
+						<h2><a id="autScripts"></a>Autres Scripts :</h2>
+								<p>
+									Ici je fais part des diffèrents <a href="https://fr.wikipedia.org/wiki/Script#Informatique" target="blank">scripts</a>(lignes de code) que j'ai du écrire pour rendre le jeu plus fluide et palpitant. C'est pour rendre les obstacles interactifs avec l'utilisateur et modulables par la suite.
+								</p>
+							
+					</div>
+					<div class=block2>
+							<iframe src="http://www.youtube.com/embed/ChDKWaYOG-Y"></iframe>
+							<p>
+								Le premier obstacle rencontré par le joueur sont des pics, son script est assez simple, lorsque le joueur touche la zone délimitée, il reçoit 1 point de dégât.
+							</p>
+					</div>
+
+					<div class=block3>
+							<iframe src="http://www.youtube.com/embed/mVi8ZOCyoCQ"></iframe>
+							<p>
+								Ce script semble assez sommaire mais il est plutôt compliqué, dans un jeu le joueur doit avoir une vision qui ne préjudique pas son gameplay, la caméra qui permet au joueur de voir ce qu'il y a dans le jeu doit donc être bien réglée. En temps normal la caméra suit tout le temps le joueur, mais par exemple, comme dans le cas au dessus, le joueur tombe dans un piège et la caméra se fige dans un endroit, puis revient à l'endroit quand le joueur s'échappe.
+							</p>
+					</div>
+
+					<div class=block4>
+							<iframe src="http://www.youtube.com/embed/DN4m4L6UQq0"></iframe>
+							<p>
+								certaines platformes peuvent être des pièges, car elles ont une zone juste au dessus, qui lorsque le personnage passe dessus, un compteur se déclenche, la platforme devient sujet à la gravité et tombe.
+							</p>
+					</div>
+
+					<div class=block5>
+							<iframe src="http://www.youtube.com/embed/-xCEndCxICU"></iframe>
+							<p>
+								Personnellement je pense que c'est l'obstacle le plus réussi du jeu. Le joueur tombe dans une grotte avec une seule issue, une roche géante tombe juste après lui, sans trop réflêchir il doit se hâter vers la sortie le plus vite possible.
+							</p>
+					</div>
+
+					<div class=block6>
+							<iframe src="http://www.youtube.com/embed/DOs--XbI6DI"></iframe>
+							<p>
+								Le dernier script mais pas le moindre, le spawner sert à faire apparaître des ennemis lorsque le joueur passe sur la zone d'apparition, je peut choisir les ennemis, où ils apparaissent, par quel nombre et avec quelle intervalle entre chaque apparition.
+							</p>
+					</div>
+					
+				</div>
+
+				<div class="page5">
+					<div class="block1">
+						<h2><a id="bibliographie"></a>Bibliographie :</h2>
+								<p>
+									ici seront tous les sites où tutoriels que j'ai pu utiliser lors de la création de <em>Shinibuta</em>
+								</p>
+							
+					</div>
+					<div class=block2>
+							<ul>
+								<a href="https://www.youtube.com/user/Brackeys" target="blank"><li>Brackeys tutoriels</li></a>
+								<a href="https://www.youtube.com/watch?v=SCRupyidkYA&list=PLX-uZVK_0K_6VXcSajfFbXDXndb6AdBLO" target="blank"><li>Incope Studios Unity platformer tutoriels</li></a>
+								<a href="https://www.youtube.com/channel/UC9Z1XWw1kmnvOOFsj6Bzy2g" target="blank"><li>BlackThorn tutoriels</li></a>
+								<a href="https://docs.unity3d.com/Manual/index.html" target="blank"><li>Manuel officiel de Unity</li></a>
+							</ul>
+					</div>
+					
+				</div>
+
+
+			</div>
+			
+		
+	</div>
+	</body>
+	
+</html>
