@@ -1,0 +1,49 @@
+
+
+  body,html {
+  height: 94.7%;
+  width: 100%;
+}
+
+
+#pagePrincipale .pagePrincipale{
+	width: 100%;
+	
+	/*background-image: url("../images/bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+	background-color: #3B3636;
+	height: calc(100% + 150px);
+}
+
+
+
+
+#pagePrincipale .pagePrincipale .page{
+	background-color: #FCFCFC;
+	width: 80%;
+	height: 70%;
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow: auto;
+	text-align: center;
+	margin-top: 9%;
+	border: solid black;
+	border-radius: 10px;
+	 display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#pagePrincipale .pagePrincipale .block1{
+	width: 100%;
+	height: 60%;
+	margin:20px;
+	color: black;
+	border: 1px #c1c1c1 solid;
+	border-width: 1.5px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+

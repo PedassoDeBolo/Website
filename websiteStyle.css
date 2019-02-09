@@ -1,0 +1,257 @@
+
+
+  body,html {
+  height: 100%;
+  width: 100%;
+}
+
+.menu{
+	height: calc(1150% + 150px);
+	width: 10%;
+	min-width: 10%;
+	min-height: 100%;
+	background-color: #191717;
+	border-right: solid black;
+	border-width: 3px;
+
+}
+
+.listeMenu{
+	color: black;
+	background-color: green;
+	margin: 0;
+	margin-top: 220px;
+	position: sticky;
+  	top: 12%;
+    padding: 0;
+
+}
+
+.listeMenu>li{
+	background-color: #69E248;
+	text-align: center;
+	padding: 5%;
+	border: solid black;
+	border-width: 1px;
+
+
+}
+
+.intro a span{
+ position:absolute; 
+ width: 100%;
+ height: 20%;
+ left:0;
+ top:0;
+}
+
+.realisation a span{
+ position:absolute; 
+ width: 100%;
+ height: 20%;
+ top:20%;
+ left: 0;
+}
+
+.mecaniques a span{
+	position:absolute; 
+    width: 100%;
+    height: 20%;
+    top:40%;
+    left: 0;
+}
+
+.autScripts a span{
+	position:absolute; 
+    width: 100%;
+    height: 20%;
+    top:60%;
+    left: 0;
+}
+
+.bibliographie a span{
+	position:absolute; 
+    width: 100%;
+    height: 20%;
+    top:80%;
+    left: 0;
+}
+
+.listeMenu>li:hover{
+	color: #69e248;
+ 	background-color: #000000;
+
+}
+
+
+.pagePrincipale{
+	width: 100%;
+	
+	/*background-image: url("../images/bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+	background-color: #3B3636;
+	height: calc(1150% + 150px);
+}
+
+
+.page1{
+	background-color: #FCFCFC;
+	width: 80%;
+	height: 45%;
+	min-height: 720px;
+	max-height: 720px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 9%;
+	overflow: auto;
+	text-align: center;
+	
+	border: solid black;
+	border-radius: 10px;
+	 display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.retour{
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 40px;
+	width: 100px;
+}
+
+
+.retour a span{
+	position:absolute; 
+ 	width: 100px;
+ 	height: 40px;
+ 	top:122px;
+ 	left: 272px;
+
+}
+
+
+#intro{
+	position: absolute;
+	top:0;
+
+}
+
+#realisation{
+	position: absolute;
+	top:calc(1000px);
+}
+
+#mecaniques{
+	position: absolute;
+	top:calc(1900px);
+}
+
+#autScripts{
+	position: absolute;
+	top:calc(4300px);
+}
+
+#bibliographie{
+	position: absolute;
+	top:calc(5200px);
+}
+
+.pagePrincipale .block1{
+	width: 100%;
+	height: 15%;
+	min-height: 100px;
+	max-height: 100px;
+	margin:20px;
+	color: black;
+	border: 1px #c1c1c1 solid;
+	border-width: 1.5px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.page1 .block1 p{
+	border-top: solid black;
+	border-bottom: solid black;
+	border-width: 2px;
+	margin-top: 15px;
+
+
+}
+
+
+
+.pagePrincipale .block2{
+	width: 100%;
+	height: 20%;
+	min-height: 300px;
+	max-height: 300px;
+	margin:20px;
+	color: black;
+	border: 1px #c1c1c1 solid;
+	border-width: 1.5px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.page1 .block2 img{
+	width: 40%;
+	height: 70%;
+	left: 20px;
+	margin:0 auto;
+}
+
+.page2{
+	background-color: #FCFCFC;
+	width: 80%;
+	height: 45%;
+	min-height: 850px;
+	max-height: 850px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 9%;
+	overflow: auto;
+	text-align: center;
+	
+	border: solid black;
+	border-radius: 10px;
+	 display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.page2 .block1{
+	width: 100%;
+	height: 15%;
+	min-height: 400px;
+	max-height: 400px;
+	margin:20px;
+	color: black;
+	border: 1px #c1c1c1 solid;
+	border-width: 1.5px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.page2 .block1 img{
+	width: 700px;
+	height: 350px;
+}
+
+.page2 .block2{
+	width: 100%;
+	height: 15%;
+	min-height: 200px;
+	max-height: 200px;
+	margin:20px;
+	color: black;
+	border: 1px #c1c1c1 solid;
+	border-width: 1.5px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+
+

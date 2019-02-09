@@ -1,0 +1,156 @@
+
+
+ body,html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+#realisations .pagePrincipale{
+	width: 100%;
+	
+	/*background-image: url("../images/bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+	background-color: #3B3636;
+	height: calc(110% + 150px);
+}
+
+
+#realisations .pagePrincipale .page{
+	background-color: #FCFCFC;
+	width: 80%;
+	height: 70%;
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow: auto;
+	text-align: center;
+	margin-top: 9%;
+	border: solid black;
+	border-radius: 10px;
+	 display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#realisations .pagePrincipale .block1{
+	background-image: url("../images/logoJeu1.png");
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+	color: white;
+	width: 33%;
+	height: 40%;
+	margin:20px;
+	border: 1px #c1c1c1 solid;
+	border-width: 1.5px;
+    border-radius: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+#realisations .pagePrincipale .block1 h3{
+	margin:110px 0;
+}
+
+#realisations .pagePrincipale .block1:hover{
+	background-color: grey;
+	background-image: url("../images/logoJeu1Mod.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color:#FFB9A0;
+	transition: all ease-in-out 250ms;
+
+}
+
+#realisations .pagePrincipale .block2{
+	background-image: url("../images/logoSite.png");
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+	width: 33%;
+	height: 40%;
+	margin:20px;
+	color: white;
+	border: 1px #c1c1c1 solid;
+	border-width: 1.5px;
+    border-radius: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+#realisations .pagePrincipale .block2 h3{
+	margin:110px 0;
+}
+
+#realisations .pagePrincipale .block2:hover{
+	background-color: grey;
+	background-image: url("../images/logoSiteMod.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transition: all ease-in-out 250ms;
+	color: #69E248;
+}
+
+#realisations .pagePrincipale .block3{
+	background-image: url("../images/logoVideosMod.png");
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+	color: black;
+	width: 33%;
+	height: 40%;
+	margin:20px;
+	border: 1px #c1c1c1 solid;
+	border-width: 1.5px;
+    border-radius: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+#realisations .pagePrincipale .block3 h3{
+	margin:110px 0;
+}
+
+#realisations .pagePrincipale .block3:hover{
+	background-color: grey;
+	background-image: url("../images/logoVideosModMod.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transition: all ease-in-out 250ms;
+	color: #F70000;
+}
+
+#realisations .pagePrincipale .block1 a span{
+	 position:absolute; 
+  width:26.3%;
+  height:32.9%;
+  top:145px;
+  left: 230px;
+  /* edit: added z-index */
+  z-index: 1;
+}
+
+#realisations .pagePrincipale .block2 a span{
+	 position:absolute; 
+  width:26.3%;
+  height:32.9%;
+  top:145px;
+  left: 770px;
+ 
+  /* edit: added z-index */
+  z-index: 1;
+}
+
+#realisations .pagePrincipale .block3 a span{
+	 position:absolute; 
+  width:26.3%;
+  height:32.9%;
+  top:415px;
+  left: 500px;
+ 
+  /* edit: added z-index */
+  z-index: 1;
+}
+
+
+
+
+
+
+
